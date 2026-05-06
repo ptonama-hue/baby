@@ -1,0 +1,152 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:'Poppins',sans-serif;
+  background: linear-gradient(135deg,#ffd6ec,#ffc2e2,#ffe4f2);
+  overflow-x:hidden;
+}
+
+.container{
+  text-align:center;
+  padding:50px;
+  color:#ff1493;
+}
+
+h1{
+  font-family:'Pacifico',cursive;
+  font-size:60px;
+  margin-top:40px;
+}
+
+h2{
+  font-size:30px;
+}
+
+p{
+  font-size:20px;
+  max-width:700px;
+  margin:auto;
+  background:white;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 20px rgba(255,105,180,0.3);
+}
+
+button{
+  margin-top:30px;
+  padding:15px 35px;
+  border:none;
+  border-radius:50px;
+  background:#ff69b4;
+  color:white;
+  font-size:20px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#ff1493;
+  transform:scale(1.1);
+}
+
+#loveMessage{
+  margin-top:30px;
+  font-size:30px;
+  color:#ff1493;
+  font-weight:bold;
+}
+
+.cat{
+  width:120px;
+  position:absolute;
+}
+
+.cat1{
+  top:20px;
+  left:20px;
+}
+
+.cat2{
+  bottom:20px;
+  right:20px;
+}
+
+audio{
+  margin-top:20px;
+  width:300px;
+}
+
+.foto{
+  width:280px;
+  height:280px;
+  object-fit:cover;
+  border-radius:50%;
+  margin:20px;
+  border:6px solid white;
+  box-shadow:0 0 30px hotpink;
+}
+
+.foto-container{
+  position:relative;
+  display:inline-block;
+}
+
+.music-btn{
+  position:absolute;
+  right:-20px;
+  top:50%;
+  transform:translateY(-50%);
+
+  width:60px;
+  height:60px;
+
+  border:none;
+  border-radius:50%;
+
+  background:#ff4fa3;
+  color:white;
+
+  font-size:24px;
+  cursor:pointer;
+
+  box-shadow:0 0 20px hotpink;
+
+  transition:0.3s;
+}
+
+.music-btn:hover{
+  transform:translateY(-50%) scale(1.1);
+}
+
+.love-content{
+  margin-top:30px;
+}
+
+.summon-photo{
+
+  width:280px;
+  height:380px;
+
+  object-fit:cover;
+
+  border-radius:35px;
+
+  border:6px solid white;
+
+  box-shadow:
+    0 0 20px hotpink,
+    0 0 40px pink;
+
+  margin-top:25px;
+
+  transition:0.3s;
+
+  animation:pop 0.5s ease;
+}
+
+/* efek hover lucu */
+.summon-photo:hover{
+
+  transform:scale(1.03) rotate(-2deg);
+
+}
